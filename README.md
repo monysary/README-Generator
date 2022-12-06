@@ -23,7 +23,7 @@
   ```
 
   ## Usage
-  Users will need to clone the repository onto their local computer. Once cloned, navigate and run terminal from the appropriate directory. Type in "npm start" to initialize the README Generator. A set of prompts will be presented. Once all prompts have been answered, a README.md file will be generated with all user inputs.
+  Navigate and run terminal from the appropriate directory. Type in "npm start" to initialize the README Generator. A set of prompts will be presented. Once all prompts have been answered, a README.md file will be generated with all user inputs.
 
   ## Credits
   The generator was made using the Inquirer Node Package.
