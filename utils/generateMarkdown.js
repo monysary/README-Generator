@@ -18,17 +18,24 @@ const renderLicenseSection = license =>
 // Function to generate markdown for README
 const generateMarkdown = data =>
   `# ${data.title}
-
   ${renderLicenseBadge(data.license)}
 
   ## Description
   ${data.description}
 
   ## Installation
-  ${data.installation}
+  Install dependencies by running the following command in terminal: 
+  \`\`\`
+  ${data.dependency}
+  \`\`\`
+
+  Access the webpage via the following link: ${data.url}
 
   ## Test
-  Run the following command in terminal to ensure successful installation: ${data.test}
+  Perform tests by running the following command in terminal: 
+  \`\`\`
+  ${data.test}
+  \`\`\`
 
   ## Usage
   ${data.usage}
@@ -42,7 +49,6 @@ const generateMarkdown = data =>
   For questions, please email me at ${data.email}
 
   For other projects, please check out my GitHub at github.com/${data.username}
-
 `;
 
 module.exports = generateMarkdown;

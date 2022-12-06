@@ -17,8 +17,13 @@ const questions = [
     {
         type: "input",
         message: "What is the command for users to install dependencies?",
-        name: "installation",
-        default: "npm i inquirer@8.2.4"
+        name: "dependency",
+        default: "npm i"
+    },
+    {
+        type: "input",
+        message: "What is your project's website url (if any)?",
+        name: "url"
     },
     {
         type: "input",
