@@ -60,11 +60,6 @@ const questions = [
     }
 ];
 
-// Function to write README file
-// const writeToFile = (fileName, data) => {
-//     fs.writeFile
-// }
-
 // Function to initialize app
 const init = () => {
     inquirer
