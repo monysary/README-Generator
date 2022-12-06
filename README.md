@@ -1,41 +1,41 @@
-git# README Generator
+# title
   ![MIT License Badge](https://img.shields.io/badge/license-MIT-blue.svg)
 
   ## Description
-  The README Generator is an easy to use tool that helps users quickly generate a personal README.md file for their project.
+  sadf
 
   ## Table of Contents
-  * [Installation](#Installation)
+  [Installation](#Installation) <br>
   [Test](#Test) <br>
-  [Usage](#Usage)
-  [Credits](#Credits)
-  [License](#License)
-  [Questions](#Questions)
+  [Usage](#Usage) <br>
+  [Credits](#Credits) <br>
+  [License](#License) <br>
+  [Questions](#Questions) <br>
 
   ## Installation
   Install dependencies by running the following command in terminal: 
   ```
-  npm i
+  sadf
   ```
 
-  Access the webpage via the following link: 
+  Access the webpage via the following link: sdf
 
   ## Test
   Perform tests by running the following command in terminal: 
   ```
-  npm test
+  sdf
   ```
 
   ## Usage
-  Clone the GitHub repo into your local Computer. Navigate to the appropriate directory and run "npm start" on your terminal to initiate the generator. Answer the given prompts to generate your README file.
+  sdaf
 
   ## Credits
-  None
+  sdf
 
   ## License
     Licensed under MIT.
 
   ## Questions
-  For questions, please email me at sary.mony@gmail.com
+  For questions, please email me at asdf
 
-  For other projects, please check out my GitHub at github.com/monysary
+  For other projects, please check out my GitHub at github.com/asdf

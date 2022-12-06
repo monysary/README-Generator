@@ -6,7 +6,7 @@ const renderLicenseBadge = license =>
 // Function that returns the license link
 // If there is no license, return an empty string
 const renderLicenseLink = license =>
-  license === "NONE" ? "" : `* [License](#License)`;
+  license === "NONE" ? "" : `[License](#License) <br>`;
 
 // Function that returns the license section of README
 // If there is no license, return an empty string
@@ -24,12 +24,12 @@ const generateMarkdown = data =>
   ${data.description}
 
   ## Table of Contents
-  [Installation](#Installation)
-  [Test](#Test)
-  [Usage](#Usage)
-  [Credits](#Credits)
+  [Installation](#Installation) <br>
+  [Test](#Test) <br>
+  [Usage](#Usage) <br>
+  [Credits](#Credits) <br>
   ${renderLicenseLink(data.license)}
-  [Questions](#Questions)
+  [Questions](#Questions) <br>
 
   ## Installation
   Install dependencies by running the following command in terminal: 
