@@ -37,7 +37,7 @@ const generateMarkdown = data =>
   ${data.dependency}
   \`\`\`
 
-  Access the webpage via the following link: ${data.url}
+  Access the webpage via the following link: [${data.url}](${data.url})
 
   ## Test
   Perform tests by running the following command in terminal: 
@@ -56,7 +56,7 @@ const generateMarkdown = data =>
   ## Questions
   For questions, please email me at ${data.email}
 
-  For other projects, please check out my GitHub at github.com/${data.username}
+  For other projects, please check out my GitHub at [github.com/${data.username}](github.com/${data.username})
 `;
 
 module.exports = generateMarkdown;
