@@ -22,6 +22,12 @@ const questions = [
     },
     {
         type: "input",
+        message: "What is the command for users to test your project?",
+        name: "test",
+        default: "npm test"
+    },
+    {
+        type: "input",
         message: "Provide instructions for use.",
         name: "usage"
     },
@@ -38,25 +44,19 @@ const questions = [
     },
     {
         type: "input",
-        message: "What is the command for users to test your project?",
-        name: "test",
-        default: "npm test"
+        message: "What is your email address?",
+        name: "email"
     },
     {
         type: "input",
         message: "What is your GitHub username?",
         name: "username"
-    },
-    {
-        type: "input",
-        message: "What is your email address?",
-        name: "email"
     }
 ];
 
 // Function to write README file
 const writeToFile = (fileName, data) => {
-    
+
 }
 
 // TODO: Create a function to initialize app

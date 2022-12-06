@@ -1,22 +1,48 @@
 // Function that returns a license badge based on which license is passed in
 // If there is no license, return an empty string
 const renderLicenseBadge = license =>
-  license === "NONE" ?  "" : `![${license} License Badge](https://img.shields.io/badge/license-${license}-blue.svg)`;
+  license === "NONE" ? "" : `![${license} License Badge](https://img.shields.io/badge/license-${license}-blue.svg)`;
 
 // Function that returns the license link
 // If there is no license, return an empty string
 const renderLicenseLink = license =>
-  license === "NONE" ? "" : `\n* [License](#License)\n`;
+  license === "NONE" ? "" : `* [License](#License)`;
 
-// TODO: Create a function that returns the license section of README
+// Function that returns the license section of README
 // If there is no license, return an empty string
-function renderLicenseSection(license) {}
+const renderLicenseSection = license =>
+  license === "NONE" ? "" :
+    `## License
+    Licensed under ${license}.`;
 
-// TODO: Create a function to generate markdown for README
-function generateMarkdown(data) {
-  return `# ${data.title}
+// Function to generate markdown for README
+const generateMarkdown = data =>
+  `# ${data.title}
+
+  ${renderLicenseBadge(data.license)}
+
+  ## Description
+  ${data.description}
+
+  ## Installation
+  ${data.installation}
+
+  ## Test
+  Run the following command in terminal to ensure successful installation: ${data.test}
+
+  ## Usage
+  ${data.usage}
+
+  ## Credits
+  ${data.credits}
+
+  ${renderLicenseSection(data.license)}
+
+  ## Questions
+  For questions, please email me at ${data.email}
+
+  For other projects, please check out my GitHub at github.com/${data.username}
 
 `;
-}
 
 module.exports = generateMarkdown;
