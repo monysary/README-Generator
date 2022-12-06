@@ -1,6 +1,7 @@
 // Declare dependencies
 const fs = require("fs");
 const inquirer = require("inquirer");
+const generateMarkdown = require("./utils/generateMarkdown");
 
 // Terminal prompts for generating README.md
 const questions = [
@@ -60,12 +61,20 @@ const questions = [
 ];
 
 // Function to write README file
-const writeToFile = (fileName, data) => {
+// const writeToFile = (fileName, data) => {
+//     fs.writeFile
+// }
 
+// Function to initialize app
+const init = () => {
+    inquirer
+        .prompt(questions)
+        .then((response) => {
+            fs.writeFile("README.md", generateMarkdown(response), (error) => 
+                error ? console.log(error) : console.log("README file created!")
+            )
+        })
 }
-
-// TODO: Create a function to initialize app
-function init() {}
 
 // Function call to initialize app
 init();
