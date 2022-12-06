@@ -5,8 +5,8 @@ git# README Generator
   The README Generator is an easy to use tool that helps users quickly generate a personal README.md file for their project.
 
   ## Table of Contents
-  [Installation](#Installation)
-  [Test](#Test)
+  * [Installation](#Installation)
+  [Test](#Test) <br>
   [Usage](#Usage)
   [Credits](#Credits)
   [License](#License)
