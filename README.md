@@ -25,6 +25,8 @@
   ## Usage
   Navigate and run terminal from the appropriate directory. Type in "npm start" to initialize the README Generator. A set of prompts will be presented. Once all prompts have been answered, a README.md file will be generated with all user inputs.
 
+  Demo video: https://drive.google.com/file/d/1urvG3KqwFjwq78ew8t1jSFiue8O-VTFR/view
+
   ## Credits
   The generator was made using the Inquirer Node Package.
 
